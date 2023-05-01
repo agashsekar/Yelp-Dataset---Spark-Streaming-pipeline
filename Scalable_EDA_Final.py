@@ -49,7 +49,7 @@ spark = SparkSession(sc)
 # In[3]:
 
 
-review3 = spark.read.format("csv").option("header", "true").option("inferSchema", "true").load("C:/Users/arumu/PreProcessedDataSet/*.csv")
+review3 = spark.read.format("csv").option("header", "true").option("inferSchema", "true").load("C:/Users/agash/PreProcessedDataSet/*.csv")
 
 
 # In[12]:
